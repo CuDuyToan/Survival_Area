@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21256f007998b9746a6de2512bc96cb5, type: 3}
+  m_Name: DeadBody (Wolf) 1
+  m_EditorClassIdentifier: 
+  resourceName: Deadbody (Wolf)
+  exploitType: 1
+  exploitByHand: 0
+  maxHealth: 125
+  isCanRecovery: 0
+  timeScale: 1
+  timeCount: 10
+  requiredTools_1: 01000000
+  materials_1:
+  - _material: {fileID: 11400000, guid: d6a15d31b27d7a344a38670479720198, type: 2}
+    _amount: 2
+    _rate: 20
+  - _material: {fileID: 11400000, guid: d6a15d31b27d7a344a38670479720198, type: 2}
+    _amount: 3
+    _rate: 15
+  - _material: {fileID: 11400000, guid: d6a15d31b27d7a344a38670479720198, type: 2}
+    _amount: 1
+    _rate: 17
+  - _material: {fileID: 11400000, guid: e986bde6458490c40a27f69479778fa2, type: 2}
+    _amount: 3
+    _rate: 10
+  - _material: {fileID: 11400000, guid: 0716bb614b59c994ebd26734f89c5ccc, type: 2}
+    _amount: 1
+    _rate: 2
+  requiredTools_2: 02000000
+  materials_2:
+  - _material: {fileID: 11400000, guid: e986bde6458490c40a27f69479778fa2, type: 2}
+    _amount: 4
+    _rate: 20
+  - _material: {fileID: 11400000, guid: e986bde6458490c40a27f69479778fa2, type: 2}
+    _amount: 5
+    _rate: 15
+  - _material: {fileID: 11400000, guid: e986bde6458490c40a27f69479778fa2, type: 2}
+    _amount: 3
+    _rate: 13
+  - _material: {fileID: 11400000, guid: d6a15d31b27d7a344a38670479720198, type: 2}
+    _amount: 2
+    _rate: 5
+  - _material: {fileID: 11400000, guid: d6a15d31b27d7a344a38670479720198, type: 2}
+    _amount: 3
+    _rate: 4
+  requiredTools_3: 
+  materials_3: []

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6110178d543ff5647a5d1aee1f9210b6, type: 3}
+  m_Name: Danger Creature (Velociraptor)
+  m_EditorClassIdentifier: 
+  creatureName: Velociraptor
+  weightCapacity: 100
+  maxHealth: 200
+  maxFood: 100
+  foodDecrease: 0.1
+  maxStamina: 100
+  recoveryValue: 0.1
+  recoveryRate: 0.1
+  damage: 30
+  reduceDamage: 5
+  armor: 10
+  walkSpeed: 3
+  runSpeed: 12
+  groupType: 0
+  fieldOfViewAngle: 140
+  creatureLayer:
+    serializedVersion: 2
+    m_Bits: 0

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21256f007998b9746a6de2512bc96cb5, type: 3}
+  m_Name: Bush (barren)
+  m_EditorClassIdentifier: 
+  resourceName: Bush
+  exploitType: 0
+  exploitByHand: 1
+  maxHealth: 30
+  isCanRecovery: 1
+  timeScale: 1
+  timeCount: 90
+  requiredTools_1: 00000000
+  materials_1:
+  - _material: {fileID: 11400000, guid: a30ab4f792de7e74d9a6e50c82c79311, type: 2}
+    _amount: 1
+    _rate: 1
+  - _material: {fileID: 11400000, guid: fa528f97bad3e9e4cb0c507630a0d45f, type: 2}
+    _amount: 1
+    _rate: 2
+  - _material: {fileID: 11400000, guid: 88ea9c1c925b68940a8cce63bfebf564, type: 2}
+    _amount: 1
+    _rate: 2
+  requiredTools_2: 03000000
+  materials_2:
+  - _material: {fileID: 11400000, guid: fa528f97bad3e9e4cb0c507630a0d45f, type: 2}
+    _amount: 2
+    _rate: 10
+  - _material: {fileID: 11400000, guid: fa528f97bad3e9e4cb0c507630a0d45f, type: 2}
+    _amount: 1
+    _rate: 15
+  - _material: {fileID: 11400000, guid: a30ab4f792de7e74d9a6e50c82c79311, type: 2}
+    _amount: 1
+    _rate: 5
+  requiredTools_3: 
+  materials_3: []

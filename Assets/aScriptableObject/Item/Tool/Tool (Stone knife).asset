@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 358d24a8acdbf7441af40a85714e1ce2, type: 3}
+  m_Name: Tool (Stone knife)
+  m_EditorClassIdentifier: 
+  itemName: Stone knife
+  itemSprite: {fileID: 21300000, guid: c824dd3a26dc34f4da6133d0f04cd18a, type: 3}
+  stackable: 0
+  maxStack: 1
+  weight: 0.2
+  itemDescription: Used to collect fiber
+  toolPrefab: {fileID: 6888276365468761856, guid: f9254ec753c07c84bb20e41af867fe8b, type: 3}
+  toolTag: 3
+  levelTool: 0
+  maxDurability: 100
+  currentDurability: 0
+  efficiency: 0
+  bonusDame: 1

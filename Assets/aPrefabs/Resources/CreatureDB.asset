@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e807495fb94d20c4190bfa045b0b69d8, type: 3}
+  m_Name: CreatureDB
+  m_EditorClassIdentifier: 
+  enemyList:
+  - {fileID: 7980191503409971414, guid: 03afb2795e5eca54e8cce56883f46cc5, type: 3}
+  - {fileID: 511572080795046642, guid: f0d463bda3bb10343b60615420fb01fc, type: 3}
+  - {fileID: 3054745342235819246, guid: 7b4f10f9608cfdc4ebc0402c75026ef8, type: 3}
+  - {fileID: 2301526881850762663, guid: 571798d3a08798e41a6657a5894c5c3b, type: 3}
+  - {fileID: 3397928091813731397, guid: 72447a0f7277cf2478d5522521272f52, type: 3}
+  - {fileID: 2655808616274182738, guid: fde2d59f1247e064da6ab0cb0497b8d4, type: 3}

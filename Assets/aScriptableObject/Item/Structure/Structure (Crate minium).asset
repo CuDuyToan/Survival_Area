@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ede442301f4016440bfea241d0455660, type: 3}
+  m_Name: Structure (Crate minium)
+  m_EditorClassIdentifier: 
+  itemName: Crate minium
+  itemSprite: {fileID: 21300000, guid: 637109f3335b3fc4aa987f1386d345bc, type: 3}
+  stackable: 1
+  maxStack: 1000
+  weight: 1
+  itemDescription: 
+  recipeSO: {fileID: 11400000, guid: 1795f8da2d0fb75469e8a842d0db3867, type: 2}
+  canTakeDame: 1
+  maxHealth: 500
+  structurePrefab: {fileID: 147920691544378876, guid: 284ae4e2e52fc614dad7a99d889229b6, type: 3}
+  objPreview: {fileID: 5914941857802894335, guid: cc2cd5a0ce450e7489842cc85b092785, type: 3}

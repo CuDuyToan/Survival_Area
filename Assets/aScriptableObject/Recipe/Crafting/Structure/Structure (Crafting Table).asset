@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d44eafbbf553d4e86e21af9a9947c9, type: 3}
+  m_Name: Structure (Crafting Table)
+  m_EditorClassIdentifier: 
+  outputItem: {fileID: 11400000, guid: 01dbc1b76d94896428307976f57b5269, type: 2}
+  creationTime: 0
+  intermediaryTool: 1
+  inputItems:
+  - item: {fileID: 11400000, guid: f27965a1f69c99c4a86d9d718c28fcb5, type: 2}
+    _amount: 1
+  - item: {fileID: 11400000, guid: 94a52bae28a824840bc1fb08c9177f88, type: 2}
+    _amount: 3
+  - item: {fileID: 11400000, guid: ef57c15ec662e7f4987a1d16a9a63bd9, type: 2}
+    _amount: 1
+  - item: {fileID: 11400000, guid: a30ab4f792de7e74d9a6e50c82c79311, type: 2}
+    _amount: 4
+  outputAmount: 1

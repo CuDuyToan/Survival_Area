@@ -1,0 +1,342 @@
+{
+    "name": "InputPlayer",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "023040ca-2ac7-4c38-a940-41bfe0281662",
+            "actions": [
+                {
+                    "name": "Idle",
+                    "type": "Button",
+                    "id": "3819e40a-36f4-4829-85e9-d91241e00ff6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Set destination",
+                    "type": "Button",
+                    "id": "07337327-63a0-42b2-b837-a673a7bdd422",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Select target",
+                    "type": "Button",
+                    "id": "e4fc7d0a-2626-4a19-9e79-706a1d865a6c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Sprint",
+                    "type": "Button",
+                    "id": "f586ed1b-cdf3-46e3-9739-fe6b62a19daf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Build structure",
+                    "type": "Button",
+                    "id": "ad59846c-0e92-4756-83af-6fa6dab1b70d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Set active structure",
+                    "type": "Button",
+                    "id": "5d322c45-34b5-478a-967b-81da1126cbaa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Repair structure",
+                    "type": "Button",
+                    "id": "6c964d9b-933b-4504-b6d9-a28e6ed55b32",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Dismantle structure",
+                    "type": "Button",
+                    "id": "5a700faa-4709-441b-bf0b-85a0e6c43390",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Rotate left",
+                    "type": "Button",
+                    "id": "54c4dac9-458c-427b-8618-ca8a720351d0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Rotate right",
+                    "type": "Button",
+                    "id": "5d98a846-fc48-4be4-9354-e502b4f8ab4f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Open inventory",
+                    "type": "Button",
+                    "id": "8d21d4e6-f1b2-4e89-bb92-77862390b7c7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interaction map",
+                    "type": "Button",
+                    "id": "d2537f4d-ddd0-4934-9cfc-f09f6c5d1a9d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Open menu",
+                    "type": "Button",
+                    "id": "f374bcb2-8ce5-40dc-b958-01ce78361a5c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4d8528f6-ea51-4453-aeac-a36b61042585",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "MultiTap(tapTime=0.3),Tap(duration=0.5)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select target",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9b192922-1ca0-4e64-84dd-1d9ef4b12480",
+                    "path": "<Keyboard>/backquote",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Open inventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "24a3c224-70a9-4b3f-917a-69c8ade97764",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Build structure",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8440ade1-a7ce-4ca9-b275-a68c82815366",
+                    "path": "<Keyboard>/m",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interaction map",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "448e3a7e-b51b-4c69-a1eb-9ab903f6e8e5",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Open menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "be256992-04c5-4a50-b708-deda43f46495",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "24aa0976-467b-4bb4-a197-51ec2ebeb9c1",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5c2d39de-990c-4d43-8198-5ae94720fd85",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dismantle structure",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "48ce24f2-13de-49fa-9388-4bb995e86958",
+                    "path": "<Keyboard>/c",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Repair structure",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "513c5dc2-1287-495f-9989-ab18e621ffd7",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0d0837a0-26d0-46ee-96bc-78724f6dce32",
+                    "path": "<Keyboard>/s",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Idle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "02fa80f8-1011-4161-b06d-025b611ff2ec",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "MultiTap(tapTime=0.3),Tap(duration=0.5)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Set destination",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "77ba7987-6dcf-4b4e-95fd-f3add495e84c",
+                    "path": "<Keyboard>/z",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Set active structure",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Inventory",
+            "id": "ec7735f1-1761-49dd-85b6-faf2fd047923",
+            "actions": [
+                {
+                    "name": "Close inventory",
+                    "type": "Button",
+                    "id": "f7afd5e8-f83a-48dd-8686-bab0ee7d0cd2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "56c382a1-cdb4-4510-8e24-5020ff834250",
+                    "path": "<Keyboard>/backquote",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Close inventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Menu",
+            "id": "047dbab3-c0ec-4927-b2a5-d4ed3a978990",
+            "actions": [
+                {
+                    "name": "Close menu",
+                    "type": "Button",
+                    "id": "5deb1ecd-a7ca-4e04-bd0b-2a71f569bd60",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7f82e9cb-463d-4259-b641-80c2b1dc1fdb",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Close menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Game over",
+            "id": "56e232f6-0502-46c1-8ec0-e0ff9495e63c",
+            "actions": [],
+            "bindings": []
+        },
+        {
+            "name": "Do not action",
+            "id": "efd39b54-f959-426b-9cc1-34a9de94e216",
+            "actions": [],
+            "bindings": []
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84c44d958f0071a418809a81704eebab, type: 3}
+  m_Name: Baking (Log)
+  m_EditorClassIdentifier: 
+  inputItem: {fileID: 11400000, guid: 94a52bae28a824840bc1fb08c9177f88, type: 2}
+  inputQuantity: 1
+  outputItem: {fileID: 11400000, guid: e5b153941f3e9db46a4f8e2bdcd43966, type: 2}
+  outputQuantity: 1

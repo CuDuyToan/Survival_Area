@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d44eafbbf553d4e86e21af9a9947c9, type: 3}
+  m_Name: Structure (Furnace)
+  m_EditorClassIdentifier: 
+  outputItem: {fileID: 11400000, guid: 3eda0fb91c8588740a86cbb8d456a523, type: 2}
+  creationTime: 0
+  inputItems:
+  - item: {fileID: 11400000, guid: 840ffd882acafde49a74466832f63a4d, type: 2}
+    _amount: 40
+  - item: {fileID: 11400000, guid: d6a15d31b27d7a344a38670479720198, type: 2}
+    _amount: 10
+  outputAmount: 1

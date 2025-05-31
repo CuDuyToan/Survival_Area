@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2017744690191960940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 545191012301355090}
+  - component: {fileID: 5848585189844169116}
+  - component: {fileID: 4005737991259006066}
+  - component: {fileID: 6028055928382977620}
+  - component: {fileID: 5154087120285967963}
+  m_Layer: 9
+  m_Name: Gold ore
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &545191012301355090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017744690191960940}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2186034002321531292}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &5848585189844169116
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017744690191960940}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 5e06de9dcc7117f48ae54ca1c30b4912, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 5e06de9dcc7117f48ae54ca1c30b4912, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!208 &4005737991259006066
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017744690191960940}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.21, y: 0.5, z: 0.275}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!136 &6028055928382977620
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017744690191960940}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.75
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &5154087120285967963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017744690191960940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c995ef1a253b1e74ba838a6cf5aef05a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _resourceSO: {fileID: 0}
+  _health: 0
+  _resourceDisplay: {fileID: 0}
+  _displayGroup: {fileID: 0}
+--- !u!1001 &1603270011080578112
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 545191012301355090}
+    m_Modifications:
+    - target: {fileID: 606208878760326620, guid: 53a0901333b770e4e9a062bfc9cdb294, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 606208878760326620, guid: 53a0901333b770e4e9a062bfc9cdb294, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 606208878760326620, guid: 53a0901333b770e4e9a062bfc9cdb294, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 606208878760326620, guid: 53a0901333b770e4e9a062bfc9cdb294, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.12202713
+      objectReference: {fileID: 0}
+    - target: {fileID: 606208878760326620, guid: 53a0901333b770e4e9a062bfc9cdb294, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0019489058
+      objectReference: {fileID: 0}
+    - target: {fileID: 606208878760326620, guid: 53a0901333b770e4e9a062bfc9cdb294, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9923983
+      objectReference: {fileID: 0}
+    - target: {fileID: 606208878760326620, guid: 53a0901333b770e4e9a062bfc9cdb294, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.01584968
+      objectReference: {fileID: 0}
+    - target: {fileID: 606208878760326620, guid: 53a0901333b770e4e9a062bfc9cdb294, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 606208878760326620, guid: 53a0901333b770e4e9a062bfc9cdb294, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 165.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 606208878760326620, guid: 53a0901333b770e4e9a062bfc9cdb294, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8697725446207298953, guid: 53a0901333b770e4e9a062bfc9cdb294, type: 3}
+      propertyPath: m_Name
+      value: Gold ore
+      objectReference: {fileID: 0}
+    - target: {fileID: 8697725446207298953, guid: 53a0901333b770e4e9a062bfc9cdb294, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 53a0901333b770e4e9a062bfc9cdb294, type: 3}
+--- !u!4 &2186034002321531292 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 606208878760326620, guid: 53a0901333b770e4e9a062bfc9cdb294, type: 3}
+  m_PrefabInstance: {fileID: 1603270011080578112}
+  m_PrefabAsset: {fileID: 0}
