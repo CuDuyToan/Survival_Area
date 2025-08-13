@@ -1,5 +1,5 @@
 # Survival_Area
-first game
+first game/n
 hướng dẫn : 
 [`] mở túi đồ
 (RTap) đi bộ đến vị trí của chuột, (Rx2Tap) chạy tới vị trí của chuột, (RHold) bứt tốc theo chuột
