@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5120325564494945220}
   - component: {fileID: 6188210928748182618}
   - component: {fileID: -4707267900021722810}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,13 +46,14 @@ Animation:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6990458426430102543}
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Animation: {fileID: 7400000, guid: 5e06de9dcc7117f48ae54ca1c30b4912, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 5e06de9dcc7117f48ae54ca1c30b4912, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
+  m_UpdateMode: 0
   m_CullingType: 0
 --- !u!208 &5871664483349731371
 NavMeshObstacle:
@@ -126,6 +127,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.1
   m_Pitch: 1

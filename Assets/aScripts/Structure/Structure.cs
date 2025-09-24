@@ -40,6 +40,8 @@ public class Structure : MonoBehaviour
 
     }
 
+    public bool IsBroken => _Health <= 0;
+
     public RecipeSO _RecipeSO => _structureSO.RecipeSO;
 
     #endregion

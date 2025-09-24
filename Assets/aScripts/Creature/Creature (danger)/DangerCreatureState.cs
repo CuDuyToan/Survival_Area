@@ -170,10 +170,20 @@ namespace DangerCreatureState
 
         private void TargetIsDie(DangerCreature creature)
         {
-            if (creature.Target == null) return;
-            Creature target = creature.Target.GetComponent<Creature>();
+            if (creature == null) return;
 
-            if (target.IsDead) creature.Target = null;
+            if (creature.Target == null) return;
+
+            if (creature.Target.GetComponent<Creature>() != null)
+            {
+                Creature target = creature.Target.GetComponent<Creature>();
+                if (target.IsDead) creature.Target = null;
+            }
+            else if (creature.Target.GetComponent<Structure>() != null)
+            {
+                Structure target = creature.Target.GetComponent<Structure>();
+                if (target.IsBroken) creature.Target = null;
+            }
         }
 
         public void Exit(DangerCreature creature)
@@ -214,10 +224,20 @@ namespace DangerCreatureState
 
         private void TargetIsDie(DangerCreature creature)
         {
-            if (creature.Target == null) return;
-            Creature target = creature.Target.GetComponent<Creature>();
+            if (creature == null) return;
 
-            if (target.IsDead) creature.Target = null;
+            if (creature.Target == null) return;
+
+            if (creature.Target.GetComponent<Creature>() != null)
+            {
+                Creature target = creature.Target.GetComponent<Creature>();
+                if (target.IsDead) creature.Target = null;
+            }
+            else if (creature.Target.GetComponent<Structure>() != null)
+            {
+                Structure target = creature.Target.GetComponent<Structure>();
+                if (target.IsBroken) creature.Target = null;
+            }
         }
 
         public void Exit(DangerCreature creature)

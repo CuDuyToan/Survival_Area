@@ -86,10 +86,20 @@ namespace NeutralCreatureState
 
         private void TargetIsDie(NeutralCreature creature)
         {
-            if (creature.Target == null) return;
-            Creature target = creature.Target.GetComponent<Creature>();
+            if (creature == null) return;
 
-            if (target.IsDead) creature.Target = null;
+            if (creature.Target == null) return;
+
+            if (creature.Target.GetComponent<Creature>() != null)
+            {
+                Creature target = creature.Target.GetComponent<Creature>();
+                if (target.IsDead) creature.Target = null;
+            }
+            else if (creature.Target.GetComponent<Structure>() != null)
+            {
+                Structure target = creature.Target.GetComponent<Structure>();
+                if (target.IsBroken) creature.Target = null;
+            }
         }
 
         public void Exit(NeutralCreature creature)
@@ -189,10 +199,20 @@ namespace NeutralCreatureState
 
         private void TargetIsDie(NeutralCreature creature)
         {
-            if (creature.Target == null) return;
-            Creature target = creature.Target.GetComponent<Creature>();
+            if (creature == null) return;
 
-            if (target.IsDead) creature.Target = null;
+            if (creature.Target == null) return;
+
+            if (creature.Target.GetComponent<Creature>() != null)
+            {
+                Creature target = creature.Target.GetComponent<Creature>();
+                if (target.IsDead) creature.Target = null;
+            }
+            else if (creature.Target.GetComponent<Structure>() != null)
+            {
+                Structure target = creature.Target.GetComponent<Structure>();
+                if (target.IsBroken) creature.Target = null;
+            }
         }
 
         public void Exit(NeutralCreature creature)

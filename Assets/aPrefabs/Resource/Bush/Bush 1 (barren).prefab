@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1907172670994101162}
   - component: {fileID: 5471260912312238960}
   - component: {fileID: -2249367629198096512}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bush 1 (barren)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,6 +64,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -118,13 +121,14 @@ Animation:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7187317397339371508}
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Animation: {fileID: 7400000, guid: 5e06de9dcc7117f48ae54ca1c30b4912, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 5e06de9dcc7117f48ae54ca1c30b4912, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
+  m_UpdateMode: 0
   m_CullingType: 0
 --- !u!82 &1907172670994101162
 AudioSource:
@@ -137,6 +141,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.1
   m_Pitch: 1

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1328272456851194009}
   - component: {fileID: 2635388743810738483}
   - component: {fileID: 1885793199261871352}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tree 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,6 +64,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -136,13 +139,14 @@ Animation:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8561220968603491667}
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Animation: {fileID: 7400000, guid: 5e06de9dcc7117f48ae54ca1c30b4912, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 5e06de9dcc7117f48ae54ca1c30b4912, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
+  m_UpdateMode: 0
   m_CullingType: 0
 --- !u!82 &2635388743810738483
 AudioSource:
@@ -155,6 +159,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.1
   m_Pitch: 1

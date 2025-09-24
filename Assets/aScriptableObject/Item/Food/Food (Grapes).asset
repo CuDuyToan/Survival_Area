@@ -19,7 +19,7 @@ MonoBehaviour:
   weight: 0.1
   itemDescription: 
   foodPoint: 0.5
-  waterPoint: 2
+  waterPoint: 25
   healthPoint: 0
   timeScale: 1
   maxExpiry: 20
