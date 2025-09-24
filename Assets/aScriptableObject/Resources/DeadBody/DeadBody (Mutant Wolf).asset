@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21256f007998b9746a6de2512bc96cb5, type: 3}
-  m_Name: DeadBody (Wolf) 1
+  m_Name: DeadBody (Mutant Wolf)
   m_EditorClassIdentifier: 
-  resourceName: Deadbody (Wolf)
+  resourceName: Deadbody (Mutant Wolf)
   exploitType: 1
   exploitByHand: 0
   maxHealth: 125
