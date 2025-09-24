@@ -299469,7 +299469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5719787850270102182, guid: e58ca650979b18b488a032b9f339f6af, type: 3}
       propertyPath: itemList.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5719787850270102182, guid: e58ca650979b18b488a032b9f339f6af, type: 3}
       propertyPath: itemList.Array.data[0]._item
